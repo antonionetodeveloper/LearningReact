@@ -1,13 +1,106 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body::-webkit-scrollbar{
+  display: none;
+}
+
+body{
+  background-image: url('images/slogan_background.jpeg');
+  background-color: rgb(24, 26, 27);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: white;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+  background-color: rgba(0, 0, 0, 0.6);
+}header > p{
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  font-size: 2vw;
+}
+
+
+main{
+  margin-top: 40vh;
+}
+
+#slogan{
+  display: flex;
+  justify-content: center;
+  height: 60vh;
+}
+
+#slogan > div > h1{
+  font-size: 7vw;
+}
+
+#slogan > div{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 90vw;
+  height: 20vh;
+  text-align: center;
+  border: 1px solid;
+  justify-content: center;
+}
+.profissions{
+  display: flex;
+  justify-content: center;
+  gap: 4vw;
+  
+}#slogan > div > div > h2{
+  font-weight: 300;
+}
+
+
+#aboutMe{
+  background-color: rgb(24, 26, 27);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.imgAndText{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  gap: 2vw;
+}
+.text{
+  width: 50vw;
+  text-align: justify;
+  align-self: center;
+}
+.img{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-self: center;
+}
+
+
+#services{
+
+}
+
+
+
+#portfolio{
+
+}
+
+
+
+#contact{
+
 }
