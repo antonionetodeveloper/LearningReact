@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
 *{
   margin: 0px;
   padding: 0px;
@@ -32,6 +34,8 @@ header{
 
 main{
   margin-top: 40vh;
+}p{
+  font-family: "Roboto Slab";
 }
 
 #slogan{
@@ -69,6 +73,7 @@ main{
   height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .imgAndText{
   display: flex;
@@ -77,9 +82,21 @@ main{
   gap: 2vw;
 }
 .text{
-  width: 50vw;
+  width: 39vw;
   text-align: justify;
   align-self: center;
+  font-weight: 600;
+  font-family: "Roboto Slab";
+}.text > a {
+  color: rgb(48, 48, 219);
+  text-decoration: underline;
+}.text > p > a{
+  color: rgb(86, 255, 86);
+}
+
+.descricao{
+  font-weight: 100;
+  text-align: end;
 }
 .img{
   width: 40%;
@@ -90,17 +107,64 @@ main{
 
 
 #services{
-
+  background-color: rgb(24, 26, 27);
+  display: flex;
+  justify-content: center;
+  position: absolute;
 }
-
+#services > div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
+  position: relative;
+  margin-bottom: 10vh;
+}#services > div > img{
+  width: 20%;
+}#services > div > div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}#services > div > div > p{
+  font-size: 1vw;
+  text-align: center;
+}
 
 
 #portfolio{
-
+  background-color: rgb(24, 26, 27);  
+  height: 90vw;
+}#portfolio > div{
+  margin-top: 80vh;
+  position: relative;
+  top: 10vh;
+}#portfolio > div > h2{
+  text-align: center;
+  font-size: 4vw;
+  font-family: sans-serif;
+  font-weight: 700;
+}#portfolio > div > div{
+  position: relative;
+  top: 15vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2vw;
+}
+#portfolio > div > div > a > img{
+  width: 30vw;
+  border-radius: 1vw;
 }
 
 
-
 #contact{
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2vh;
+  background-color: rgb(24, 26, 27);  
+  margin-top: 30vh;
+  height: 40vh;
+}#contact > p, a > p{
+  text-align: center;
 }
