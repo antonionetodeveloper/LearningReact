@@ -1,0 +1,26 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+body{
+	background-color: whitesmoke;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+		/*ScrollBar*/
+body::-webkit-scrollbar {
+	width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+	background: whitesmoke;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: rgb(255, 89, 63);
+	border-radius: 20px;
+}

@@ -1,5 +1,8 @@
 import Home from "./Pages/Home/"
+import Cart from "./Pages/Cart/"
 // ....
+
+import "./styles.css"
 
 import {
   BrowserRouter as Router,
@@ -12,6 +15,7 @@ export default function App() {
     <Router>
       <Routes>
         <Route path={"/"} element={<Home/>}/>
+        <Route path={"/Carrinho"} element={<Cart/>}/>
       </Routes>
     </Router>
   );
