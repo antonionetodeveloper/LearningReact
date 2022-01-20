@@ -22,7 +22,19 @@ export function Main(){
 			/>
 
 			<section className="itens">
-				<section>
+
+					<Card
+						img={canecaBatman}
+						title="Caneca do Batman"
+						price="R$ 49,90"
+					/>
+
+					<Card
+						img={canecaBatman}
+						title="Caneca do Batman"
+						price="R$ 49,90"
+					/>
+					
 					<Card
 						img={canecaBatman}
 						title="Caneca do Batman"
@@ -40,9 +52,7 @@ export function Main(){
 						title="Caneca do Batman"
 						price="R$ 49,90"
 					/>
-				</section>
 
-				<section>
 					<Card
 						img={canecaBatman}
 						title="Caneca do Batman"
@@ -60,7 +70,6 @@ export function Main(){
 						title="Caneca do Batman"
 						price="R$ 49,90"
 					/>
-				</section>
 			</section>
 		</MainStyle>
 	);
