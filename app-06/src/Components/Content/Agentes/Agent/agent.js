@@ -9,7 +9,7 @@ export default function Agent(props){
 				<p>{props.title}</p>
 				<text>{props.text}</text>
 			</div>
-			<img src={props.src} style={{width: props.width+"vw"}}/>
+			<img src={props.src} alt="Agente" style={{width: props.width+"vw"}}/>
 		</Container>
 	)
 }
