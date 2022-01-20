@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "resolutions": {
-    "mini-css-extract-plugin": "2.4.5"
+    "mini-css-extract-plugin": "8.1.2"
   },
   "dependencies": {
     "@chec/commerce.js": "^2.8.0",
