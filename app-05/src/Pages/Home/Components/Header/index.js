@@ -9,7 +9,7 @@ import carrinho from "./Images/carrinho.png"
 export function Header(props){
 	return(
 		<HeaderStyle>
-			<img src={logo}/>
+			<img src={logo} alt=""/>
 			<h1>YourCaneca</h1>
 				<Link to={"/Carrinho"}>
 					<button className="cart">
