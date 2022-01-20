@@ -13,7 +13,7 @@ export function Header(props){
 			<h1>YourCaneca</h1>
 				<Link to={"/Carrinho"}>
 					<button className="cart">
-						<img src={carrinho} className="cart"/>
+						<img src={carrinho} className="cart" alt=""/>
 						<p>0</p>
 					</button>
 				</Link>
