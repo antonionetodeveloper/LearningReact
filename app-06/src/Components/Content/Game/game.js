@@ -18,7 +18,7 @@ export default function Game(){
 				Para a alegria das crianças com microfones de rodoviária, o jogo é de grátis 
 				e foi lançado no 1° semestre de 2020.
 			</text>
-			<img src={jettVoando}/>
+			<img src={jettVoando} alt=""/>
 		</Container>
 	);
 }
