@@ -10,7 +10,7 @@ export const Container = styled.section`
 		gap:5vw;
 		background-color: #ECE8E1;
 		color: #0F1923;
-
+		
 		text{
 			font-family: sans-serif;
 			font-weight: 300;
